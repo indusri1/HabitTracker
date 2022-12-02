@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Login</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link href="/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>Habit Tracker</h1>
+            <h2>A habit tracker is a simple way to measure whether you did a habit. Measuring and tracking progress is key to building and implementing these habits in everyone's day to day lives. It’s a way to hold ourselves accountable and keeps us focused on our goals. Habit tracker allows us to see whether we are making progress or standing in place. Try this tool for 21 days and make a lifestyle change.</h2>
+			<form action="/auth" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-color: #6ca784; 
+}
+main {
+    margin-top: 70px;
+    min-width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #aae9c2;
+    padding: 100px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+h1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 35px;
+    color: #595cab;
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+}
+.checked {
+    color: gray;
+    text-decoration: line-through;
+}
