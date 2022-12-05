@@ -41,7 +41,6 @@ function crossOffHabit(event) {
     revealMessage()
 }
 
-
 function revealMessage() {
     
     setTimeout(() => {
